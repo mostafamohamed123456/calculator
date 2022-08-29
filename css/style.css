@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:arial, sans-serif;
+}
+.calculator-container{
+    background:#0ca0cd;
+    width:500px;
+    min-height:500px;
+    margin:150px auto;
+    overflow:hidden;
+    border-radius:4px;
+    transition: all .2s linear;
+    box-shadow:3px 3px 5px #222, 3px 3px 5px #222, -3px -3px 5px #222, -3px -3px 5px #222;
+}
+.calculator-container .calculator-nav{
+    background:#333;
+    width:100%;
+    height:40px;
+}
+.calculator-container .calculator-nav .calculator-header{
+    color:#FFF;
+    text-transform:capitalize;
+    font-size:1.5em;
+    float:left;
+    padding:5px;
+}
+.calculator-container .calculator-nav .control-calculator-btns{
+    float:right;
+    padding:7px 10px;
+}
+.calculator-container .calculator-nav .control-calculator-btns > button{
+    background:#333;
+    border:0px;
+    color:#FFF;
+    font-size:1.5em;
+    cursor:pointer;
+    margin-right:5px;
+}
+.calculator-container .calculator-output{
+    background:#DDD;
+    padding:30px;
+}
+.calculator-container .calculator-output > span{
+    font-size:21px;
+    font-weight:bold;
+    font-family:cursive, Arial, sans-serif;
+    display:block
+}
+.calculator-container .calculator-output .result{
+    float:right
+}
+.calculator-container .calculator-btns{
+    text-align: center;
+    padding:30px 0 0 0;
+    overflow: hidden;
+}
+.calculator-container .calculator-btns > button{
+    background: #EEE;
+    color:#222;
+    border-radius:4px;
+    font-size:18px;
+    font-weight:bold;
+    border:0px;
+    width:79px;
+    margin:10px;
+    padding:12px;
+    cursor:pointer;
+    transition: all .2s linear;
+}
+.calculator-container .calculator-btns button:last-of-type{
+    width:90%;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    background:rgb(206, 55, 55);
+    color:#FFF
+}
+.calculator-container .calculator-btns button:hover{
+    background: #CCC;
+}
+.calculator-container .calculator-btns button:last-of-type:hover{
+    background:rgb(223, 29, 29);
+}
